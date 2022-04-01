@@ -614,6 +614,14 @@ header .icons #menu-bars{
         display: inline-block;
     }
 
+    header{
+        padding-top: 2rem;
+    }
+
+    header .icons .fa-shopping-cart {
+        display: none;
+    }
+
     header .navbar{
         position: absolute;
         top:100%; left:0; right:0;
@@ -658,13 +666,6 @@ header .icons #menu-bars{
         font-size: 50%;  
     }  
     
-    header{
-        padding-top: 2rem;
-    }
-
-    header .icons .fa-shopping-cart {
-        display: none;
-    }
     .dishes .box-container .box img{
         height:auto;
        width: 100%;
