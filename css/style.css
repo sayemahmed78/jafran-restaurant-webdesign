@@ -656,7 +656,15 @@ header .icons #menu-bars{
 @media (max-width:450px){
     html{
         font-size: 50%;  
-    }   
+    }  
+    
+    header{
+        padding-top: 2rem;
+    }
+
+    header .icons .fa-shopping-cart {
+        display: none;
+    }
     .dishes .box-container .box img{
         height:auto;
        width: 100%;
